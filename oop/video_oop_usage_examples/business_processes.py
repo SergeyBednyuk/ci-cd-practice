@@ -15,17 +15,17 @@ class Task:
 
 class ReportTask(Task):
     def perform(self):
-        print("Preparing and sending reports...")
+        print("Preparing and sending reports....")
 
 
 class DevelopmentTask(Task):
     def perform(self):
-        print("Developing new software features...")
+        print("Developing new software features....")
 
 
 class MarketingTask(Task):
     def perform(self):
-        print("Launching a new marketing campaign...")
+        print("Launching a new marketing campaign....")
 
 
 class Department:
